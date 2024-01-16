@@ -109,3 +109,14 @@ aside {
     padding-top: calc(var(--general-padding) * 1.5);
 }
 
+footer {
+    background-color: var(--dark-background-color);
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+footer p {
+    color: var(--light-foreground-color);
+}
