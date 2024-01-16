@@ -4,7 +4,7 @@
     --dark-foreground-color: #000;
     --light-foreground-color: #fff;
     --grey-foreground-color: #ccc;
-    --accen-color: #6d0509;
+    --accent-color: #6d0509;
     --general-padding: 2em;
     --general-margin: 1em;
 }
@@ -18,4 +18,27 @@
 
 *,*::before,*::after {
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover  {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+div#container {
+    display: flex;
+    flex-direction: column;
+}
+
+div#content {
+    display: inherit;
+}
+
+div#content section {
+    display: inherit;
+    flex-direction: row;
 }
