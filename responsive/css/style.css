@@ -42,3 +42,23 @@ div#content section {
     display: inherit;
     flex-direction: row;
 }
+
+div#content section {
+    width: 80vw;
+    display: inherit;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div#content aside {
+    width: 20vw;
+}
+
+article {
+    flex: 33.33;
+}
+
+article div {
+    margin: var(--general-margin);
+    border: 1px solid var(--grey-foreground-color)
+}
